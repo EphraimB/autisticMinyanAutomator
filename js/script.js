@@ -2,7 +2,7 @@ $('#automateButton').click(ajax);
 
 function ajax(){
         $.ajax({
-            url : 'http://godaven.com/add2.asp',
+            url : 'https://cors-anywhere.herokuapp.com/http://godaven.com/add2.asp',
             type : 'POST',
             data : $('#form1').serialize(),
             success: function(data){
@@ -14,7 +14,7 @@ function ajax(){
 
 function ajax2(){
         $.ajax({
-          url : 'http://godaven.com/add2.asp',
+          url : 'https://cors-anywhere.herokuapp.com/http://godaven.com/add2.asp',
           type : 'POST',
           data : $('#form2').serialize(),
           success: function(data){
@@ -26,7 +26,7 @@ function ajax2(){
 
 function ajax3(){
         $.ajax({
-          url : 'http://godaven.com/add2.asp',
+          url : 'https://cors-anywhere.herokuapp.com/http://godaven.com/add2.asp',
           type : 'POST',
           data : $('#form3').serialize(),
           success: function(data){
@@ -38,7 +38,7 @@ function ajax3(){
 
 function ajax4(){
         $.ajax({
-          url : 'http://godaven.com/add2.asp',
+          url : 'https://cors-anywhere.herokuapp.com/http://godaven.com/add2.asp',
           type : 'POST',
           data : $('#form4').serialize(),
           success: function(data){
@@ -50,7 +50,7 @@ function ajax4(){
 
 function ajax5(){
         $.ajax({
-          url : 'http://godaven.com/add2.asp',
+          url : 'https://cors-anywhere.herokuapp.com/http://godaven.com/add2.asp',
           type : 'POST',
           data : $('#form5').serialize(),
           success: function(data){
