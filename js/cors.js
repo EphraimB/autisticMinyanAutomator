@@ -19,7 +19,7 @@ let responseListener = function(details){
 	return {responseHeaders: responseHeaders};
 };
 
-chrome.runtime.onInstalled.addListener(function(){
+/*chrome.runtime.onInstalled.addListener(function(){
     chrome.storage.local.set({'active': false});
     reload();
 });
@@ -49,4 +49,4 @@ function reload() {
 			chrome.browserAction.setIcon({path: "off.png"});
 		}
 	});
-}
+}*/
